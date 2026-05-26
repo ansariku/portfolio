@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+/* Dark mode: activate when .dark class is on any ancestor */
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100svh;
+}

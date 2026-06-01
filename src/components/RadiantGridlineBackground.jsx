@@ -6,7 +6,6 @@ import { useTheme } from '../context/ThemeContext';
   Direction changes smoothly every 5 seconds using lerp on velocity.
   A radial gradient overlay creates the "radiant" depth effect.
  */
-
 const RadiantGridlineBackground = () => {
   const { isDark } = useTheme();
   const gridRef = useRef(null);

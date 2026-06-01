@@ -1,15 +1,28 @@
 import { ThemeProvider } from './context/ThemeContext';
 import RadiantGridlineBackground from './components/RadiantGridlineBackground';
+import Navbar from './components/Navbar';
+import Hero from './components/sections/Hero';
 
 const App = () => {
   return (
     <ThemeProvider>
       <div
-        className={`relative min-h-svh bg-white dark:bg-black text-black dark:text-white transition-colors duration-500
-        `}
+        className={'relative min-h-svh bg-neutral-100 dark:bg-neutral-950 text-black dark:text-white transition-colors duration-500'}
       >
         {/* Moving radiant gridlines background (z-0) */}
         <RadiantGridlineBackground />
+
+        {/* Foreground content (z-10) */}
+        <div
+          className={'relative z-10 transition-opacity duration-500'}
+        >
+          <Navbar />
+
+          <main>
+            <Hero />
+            <div className="border-t border-gray-500 dark:border-gray-500 mx-6 max-w-6xl md:mx-auto" />
+          </main>
+        </div>
       </div>
     </ThemeProvider>
   );

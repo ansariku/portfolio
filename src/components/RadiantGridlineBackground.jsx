@@ -53,7 +53,7 @@ const RadiantGridlineBackground = () => {
 
   const lineColor = isDark
     ? 'rgba(255,255,255,0.1)'
-    : 'rgba(0,0,0,0.1)';
+    : 'rgba(0,0,0,0.075)';
 
   const radialOverlay = isDark
     ? 'radial-gradient(ellipse 80% 80% at 50% 40%, transparent 20%, rgba(0,0,0,0.75) 100%)'

@@ -27,7 +27,7 @@ const Hero = () => {
       className={`flex flex-col justify-center py-24 max-w-6xl mx-auto px-6 section-hidden ${inView ? 'section-visible' : ''}`}
     >
       <div className="max-w-2xl">
-        <p className="text-xs font-medium tracking-[0.3em] text-gray-500 mb-5 uppercase">
+        <p className="text-xs font-semibold tracking-[0.3em] text-gray-500 mb-5 uppercase">
           {'// console.log("Hello world")'}
         </p>
 
@@ -39,7 +39,7 @@ const Hero = () => {
           {personalInfo.title}
         </h2>
 
-        <p className="text-sm font-medium leading-loose max-w-lg mb-10">
+        <p className="text-sm font-semibold leading-loose max-w-lg mb-10">
           {personalInfo.shortBio}
         </p>
 

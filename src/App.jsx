@@ -2,6 +2,8 @@ import { ThemeProvider } from './context/ThemeContext';
 import RadiantGridlineBackground from './components/RadiantGridlineBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import TechStack from './components/sections/TechStack';
 
 const App = () => {
   return (
@@ -20,6 +22,10 @@ const App = () => {
 
           <main>
             <Hero />
+            <div className="border-t border-gray-500 dark:border-gray-500 mx-6 max-w-6xl md:mx-auto" />
+            <About />
+            <div className="border-t border-gray-500 dark:border-gray-500 mx-6 max-w-6xl md:mx-auto" />
+            <TechStack />
             <div className="border-t border-gray-500 dark:border-gray-500 mx-6 max-w-6xl md:mx-auto" />
           </main>
         </div>

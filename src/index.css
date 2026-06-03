@@ -17,3 +17,21 @@ body {
   padding: 0;
   min-height: 100svh;
 }
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.section-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-slide-enter {
+  transform: translateX(100%);
+}
+.menu-slide-enter-active {
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}

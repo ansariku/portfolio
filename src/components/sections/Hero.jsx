@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
 
         <a
-          href={personalInfo.cvUrl}
+          href={`${import.meta.env.BASE_URL}${personalInfo.cvUrl}`}
           download
           className="inline-flex items-center gap-2.5 px-7 py-3 text-xs tracking-widest uppercase bg-black dark:bg-white text-white dark:text-black rounded-xs hover:opacity-70 hover:scale-105 active:scale-95 transition-all duration-200"
         >

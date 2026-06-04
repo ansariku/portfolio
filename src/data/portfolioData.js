@@ -13,7 +13,7 @@ I form ideas into a creation that gives great and impactful experience to anyone
   phone: '+63 976 100 9508',
   linkedin: 'https://linkedin.com/in/ansariku',
   github: 'https://github.com/ansariku',
-  cvUrl: '/ANSARI_USMAN_CV.pdf', // CV located in public folder
+  cvUrl: 'ANSARI_USMAN_CV.pdf', // CV located in public folder
 };
 
 // Skills (checklist)

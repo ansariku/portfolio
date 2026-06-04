@@ -124,7 +124,7 @@ export const projects = [
       'A React web application where I put into code an idea or concept and test them to see if it would work or not. Just a bunch of features in one app.',
     link: 'https://react-js-practice.onrender.com',
     image: 'rjp_project_screenshot.jpg',
-    techStack: ['reactjs', 'render', 'vscode'],
+    techStack: ['reactjs', 'javascript', 'render', 'vscode'],
   },
   {
     id: 4,

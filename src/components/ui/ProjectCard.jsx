@@ -38,7 +38,7 @@ const ProjectCard = ({ project }) => {
 
         {/* Visit project link */}
         <a
-          href={`${import.meta.env.BASE_URL}${project.link}`}
+          href={project.link}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 text-sm tracking-widest uppercase font-semibold text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white hover:gap-2.5 transition-all duration-200 mt-1"

@@ -2,7 +2,7 @@
 export const personalInfo = {
   name: 'ANSARI USMAN',
   title: 'Software Engineer',
-  shortBio:'I build clean, efficient, and scalable software solutions. Passionate about creating meaningful digital experiences from robust backend architecture to polished user interfaces.',
+  shortBio:'I build clean, efficient, and scalable software solutions. Passionate about creating meaningful digital experiences from robust backend architecture to polished and responsive user interfaces.',
   about: `I'm a software engineer based in Metro Manila with a strong foundation in computer science and a genuine passion for building reliable, scalable software. I thrive in environments that challenge me to think critically and deliver impactful solutions.
 
 I form ideas into a creation that gives great and impactful experience to anyone that interacts with it.`,
@@ -96,3 +96,52 @@ export const databases = [
   TECH_MAP.mysql,
   TECH_MAP.redis
 ]
+
+// Projects
+export const projects = [
+  {
+    id: 1,
+    title: 'Weight in Other Worlds',
+    description:
+      `A mini-project that takes an object's weight and calculates how much an object would weight on other planets in the solar system.`,
+    link: 'https://weightinotherworlds.netlify.app',
+    image: 'wiow_project_screenshot.jpg',
+    techStack: ['html', 'css', 'javascript'],
+  },
+  {
+    id: 2,
+    title: 'Cat Breeds Site',
+    description:
+      'A website that lists different breeds of cats using an API. You can search for a breed, filter by name or weight, get their description and view their photos.',
+    link: 'https://catbreedssite.netlify.app',
+    image: 'cbs_project_screenshot.jpg',
+    techStack: ['html', 'css', 'javascript'],
+  },
+  {
+    id: 3,
+    title: 'ReactJS Practice',
+    description:
+      'A React web application where I put into code an idea or concept and test them to see if it would work or not. Just a bunch of features in one app.',
+    link: 'https://react-js-practice.onrender.com',
+    image: 'rjp_project_screenshot.jpg',
+    techStack: ['reactjs', 'render', 'vscode'],
+  },
+  {
+    id: 4,
+    title: 'Hiyas ng Salita',
+    description:
+      'Hiyas ng Salita is a web-based Filipino word puzzle game that revives the timeless wisdom of Bugtong, Sawikain, and Salawikain. Each challenge blends fun and learning where language, culture, and critical thinking come alive.',
+    link: 'https://www.hiyasngsalita.com',
+    image: 'hns_project_screenshot.jpg',
+    techStack: ['reactjs', 'nodejs', 'express', 'mongodb', 'git', 'github', 'vercel', 'vscode', 'postman'],
+  },
+    {
+    id: 4,
+    title: 'Opsie Software Solutions Inc. Website',
+    description:
+      'Official website of Opsie Software Solutions Inc., featuring the company profile, products, and technology-driven approach to building scalable and maintainable software systems.',
+    link: 'https://opsiesoftwaresolutions.com',
+    image: 'ossi_project_screenshot.jpg',
+    techStack: ['reactjs', 'typescript', 'nodejs', 'express', 'mongodb', 'git', 'github', 'docker', 'vscode', 'postman'],
+  },
+];

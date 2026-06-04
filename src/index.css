@@ -18,6 +18,20 @@ body {
   min-height: 100svh;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 3px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
 .section-hidden {
   opacity: 0;
   transform: translateY(28px);

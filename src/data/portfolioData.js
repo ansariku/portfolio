@@ -135,8 +135,8 @@ export const projects = [
     image: 'hns_project_screenshot.jpg',
     techStack: ['reactjs', 'nodejs', 'express', 'mongodb', 'git', 'github', 'vercel', 'vscode', 'postman'],
   },
-    {
-    id: 4,
+  {
+    id: 5,
     title: 'Opsie Software Solutions Inc. Website',
     description:
       'Official website of Opsie Software Solutions Inc., featuring the company profile, products, and technology-driven approach to building scalable and maintainable software systems.',

@@ -32,6 +32,10 @@ body {
   background: #888;
 }
 
+.progress-bar {
+  transition: width 0.3s ease-out;
+}
+
 .section-hidden {
   opacity: 0;
   transform: translateY(28px);
@@ -42,10 +46,32 @@ body {
   transform: translateY(0);
 }
 
-.menu-slide-enter {
-  transform: translateX(100%);
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.menu-slide-enter-active {
-  transform: translateX(0);
-  transition: transform 0.3s ease;
+
+.card-animate-in {
+  animation: card-in 0.4s ease forwards;
+}
+
+@keyframes card-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+.card-animate-out {
+  animation: card-out 0.35s ease forwards;
 }

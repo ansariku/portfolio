@@ -5,7 +5,7 @@ import { TECH_MAP } from '../../data/portfolioData';
 const ProjectCard = ({ project }) => {
   return (
     <div
-      className="group flex flex-col bg-white dark:bg-black border border-gray-500 rounded-lg overflow-hidden hover:border-gray-200 dark:hover:border-gray-800 hover:-translate-y-1.5 hover:shadow-xl dark:hover:shadow-2xl dark:hover:shadow-black/40 transition-all duration-300 ease-out"
+      className="h-full group flex flex-col bg-white dark:bg-black border border-gray-500 rounded-lg overflow-hidden hover:border-gray-200 dark:hover:border-gray-800 hover:-translate-y-1.5 hover:shadow-xl dark:hover:shadow-2xl dark:hover:shadow-black/40 transition-all duration-300 ease-out"
     >
       {/* Project screenshot*/}
       <div className="w-full h-44 overflow-hidden bg-gray-100 dark:bg-gray-900 shrink-0">

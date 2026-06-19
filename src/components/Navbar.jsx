@@ -48,7 +48,7 @@ const Navbar = () => {
           if (entry.isIntersecting) setActiveId(entry.target.id);
         });
       },
-      { threshold: mobileCheck ? 0.4 : 0.7 }
+      { threshold: mobileCheck ? 0.2 : 0.4 }
     );
 
     ['hero', ...NAV_LINKS.map(({ id }) => id)].forEach((id) => {

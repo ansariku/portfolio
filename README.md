@@ -33,3 +33,91 @@ A clean, minimalist single-page portfolio website built with **React 18**, **Vit
 | Deployment | GitHub Pages via GitHub Actions |
 
 ---
+
+## Project Structure
+
+```
+portfolio/
+├── public/
+│   └── ANSARI_USMAN_CV.pdf          # Updated CV / Resume
+│
+├── .github/
+│   └── workflows/
+│       └── deploy.yml               # GitHub Actions — auto-deploy on push to main
+│
+├── src/
+│   ├── main.jsx                     # React entry point
+│   ├── App.jsx                      # Root layout — wires all sections together
+│   ├── index.css                    # Global styles, Tailwind import, keyframe animations
+│   │
+│   ├── context/
+│   │   └── ThemeContext.jsx         # Light/dark mode state + localStorage persistence
+│   │
+│   ├── data/
+│   │   └── portfolioData.js         # All portfolio website content lives here
+│   │
+│   ├── hooks/
+│   │   └── useInView.js             # Intersection Observer hook for scroll animations
+│   │
+│   └── components/
+│       ├── AnimatedBackground.jsx   # Moving grid + radial gradient overlay
+│       ├── LoadingScreen.jsx        # Initial load screen with progress bar
+│       ├── Navbar.jsx               # Sticky nav, active tracking, mobile menu
+│       │
+│       ├── ui/                      # Reusable UI primitives
+│       │   ├── TechBadge.jsx        # Technology badge with icon + name
+│       │   └── ProjectCard.jsx      # Project card with image, description, badges, link
+│       │
+│       └── sections/                # One file per page section
+│           ├── Hero.jsx
+│           ├── About.jsx
+│           ├── TechStack.jsx
+│           ├── Experience.jsx
+│           ├── Projects.jsx
+│           ├── Contact.jsx
+│           └── Footer.jsx
+│
+├── index.html                    # HTML entry point; inline script prevents theme flash
+├── vite.config.js                # Vite + React + Tailwind plugins
+└── package.json
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** 18 or later — check with `node --version`
+- **npm** 9 or later — check with `npm --version`
+- **Git** — check with `git --version`
+
+### Install
+
+```bash
+# Clone or extract the project, then:
+npm install
+```
+
+### Development server
+
+```bash
+npm run dev
+# → http://localhost:5173
+```
+
+### Production build
+
+```bash
+npm run build
+# Output goes to /dist
+```
+
+### Preview production build locally
+
+```bash
+npm run preview
+# → http://localhost:4173
+```
+
+---

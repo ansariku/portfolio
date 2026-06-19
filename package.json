@@ -2,6 +2,23 @@
   "name": "portfolio",
   "private": true,
   "version": "0.9.95",
+  "description": "Website portfolio about me, my tech stack, and projects.",
+  "homepage": "https://github.com/ansariku/portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/ansariku/portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansariku/portfolio.git"
+  },
+  "license": "MIT",
+  "author": "Ansari Usman",
+  "contributors": [
+    {
+      "name": "Ansari Usman",
+      "email": "ansarikatugusman@gmail.com"
+    }
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",

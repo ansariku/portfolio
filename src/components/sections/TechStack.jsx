@@ -56,7 +56,7 @@ const TechStack = () => {
           <TechGroup title="Languages" items={languages} />
           <TechGroup title="Frameworks" items={frameworks} />
           <TechGroup title="Tools" items={tools} />
-          <TechGroup title="Tools" items={databases} />
+          <TechGroup title="Databases" items={databases} />
         </div>
       </div>
     </section>

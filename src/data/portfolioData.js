@@ -36,6 +36,7 @@ export const TECH_MAP = {
   python: { key: 'python', name: 'Python 3' },
   java: { key: 'java', name: 'Java' },
   csharp: { key: 'csharp', name: 'C#' },
+  php: { key: 'php', name: 'PHP'},
   reactjs: { key: 'reactjs',name: 'React.js' },
   nodejs: { key: 'nodejs', name: 'Node.js' },
   express: { key: 'express', name: 'Express' },
@@ -50,6 +51,7 @@ export const TECH_MAP = {
   render: { key: 'render', name: 'Render' },
   vscode: { key: 'vscode', name: 'VS Code' },
   postman: { key: 'postman', name: 'Postman' },
+  figma: { key: 'figma', name: 'Figma' },
   mongodb: { key: 'mongodb', name: 'MongoDB' },
   postgresql: { key: 'postgresql', name: 'PostgreSQL' },
   mysql: { key: 'mysql', name: 'MySQL' },
@@ -66,6 +68,7 @@ export const languages = [
   TECH_MAP.python,
   TECH_MAP.java,
   TECH_MAP.csharp,
+  TECH_MAP.php,
 ];
 
 // Frameworks
@@ -87,6 +90,7 @@ export const tools = [
   TECH_MAP.render,
   TECH_MAP.vscode,
   TECH_MAP.postman,
+  TECH_MAP.figma,
 ];
 
 // Databases

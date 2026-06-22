@@ -146,7 +146,7 @@ export const projects = [
       'Official website of Opsie Software Solutions Inc., featuring the company profile, products, and technology-driven approach to building scalable and maintainable software systems.',
     link: 'https://opsiesoftwaresolutions.com',
     image: 'ossi_project_screenshot.jpg',
-    techStack: ['reactjs', 'typescript', 'nodejs', 'express', 'mongodb', 'git', 'github', 'docker', 'vscode', 'postman'],
+    techStack: ['reactjs', 'typescript', 'nodejs', 'express', 'mongodb', 'git', 'github', 'docker', 'vscode', 'postman', 'figma'],
   },
   {
     id: 6,
@@ -155,6 +155,6 @@ export const projects = [
       'A unified digital ecosystem designed for secure communication, advanced document collaboration, and layered enterprise security for modern organization.',
     link: 'https://opsiesoftwaresolutions.com/products/OpSync',
     image: 'osyn_project_screenshot.jpg',
-    techStack: ['reactnative', 'typescript', 'nodejs', 'express', 'postgresql', 'git', 'github', 'docker', 'aws', 'vscode', 'postman'],
+    techStack: ['reactnative', 'typescript', 'nodejs', 'express', 'postgresql', 'git', 'github', 'docker', 'aws', 'vscode', 'postman', 'figma'],
   },
 ];

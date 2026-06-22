@@ -28,8 +28,8 @@ export const skills = [
 
 // Tech Map (key → display info): Used by TechBadge and referenced in projects
 export const TECH_MAP = {
-  javascript: { key: 'javascript', name: 'JavaScript (JS)' },
-  typescript: { key: 'typescript', name: 'TypeScript (TS)' },
+  javascript: { key: 'javascript', name: 'JavaScript' },
+  typescript: { key: 'typescript', name: 'TypeScript' },
   html: { key: 'html', name: 'HTML5' },
   css: { key: 'css', name: 'CSS3' },
   sql: { key: 'sql',name: 'SQL' },
@@ -143,5 +143,14 @@ export const projects = [
     link: 'https://opsiesoftwaresolutions.com',
     image: 'ossi_project_screenshot.jpg',
     techStack: ['reactjs', 'typescript', 'nodejs', 'express', 'mongodb', 'git', 'github', 'docker', 'vscode', 'postman'],
+  },
+  {
+    id: 6,
+    title: 'OpSync | Enterprise Workforce Platform',
+    description:
+      'A unified digital ecosystem designed for secure communication, advanced document collaboration, and layered enterprise security for modern organization.',
+    link: 'https://opsiesoftwaresolutions.com/products/OpSync',
+    image: 'osyn_project_screenshot.jpg',
+    techStack: ['reactnative', 'typescript', 'nodejs', 'express', 'postgresql', 'git', 'github', 'docker', 'aws', 'vscode', 'postman'],
   },
 ];

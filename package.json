@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "version": "0.9.95",
+  "version": "0.9.96",
   "description": "Website portfolio about me, my tech stack, and projects.",
   "homepage": "https://github.com/ansariku/portfolio#readme",
   "bugs": {

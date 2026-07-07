@@ -4,11 +4,17 @@ import babel from '@rolldown/plugin-babel';
 import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [
-    react(),
-    babel({ presets: [reactCompilerPreset()] }),
-    tailwindcss(),
-  ],
-  base: '/portfolio/',
+export default defineConfig(({ command }) => {
+  if (command === 'serve') {
+    process.env.NODE_ENV = 'development';
+  }
+
+  return {
+    plugins: [
+      react(),
+      babel({ presets: [reactCompilerPreset()] }),
+      tailwindcss(),
+    ],
+    base: '/portfolio/',
+  };
 });

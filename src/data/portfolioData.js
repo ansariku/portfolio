@@ -101,6 +101,32 @@ export const databases = [
   TECH_MAP.redis
 ]
 
+export const experiences = [
+  {
+    id: 1,
+    title: 'Full Stack Software Developer',
+    company: 'Opsie Software Solutions Inc.',
+    type: 'Internship',
+    duration: 'FEB 2026 - JUN 2026',
+    location: 'Mandaluyong City, PH',
+    points: [
+      'Engineered a full-stack enterprise-grade ticketing and user management platform designed for internal support operations, issue tracking, and team collaboration using Node.js and Express with JWT authentication backed by MongoDB and React with TypeScript for the UI styled with Tailwind CSS.',
+      'Designed and developed a full-stack job application system built with Node.js, Express, and TypeScript, featuring a modular OOP backend and a modern, responsive React frontend.',
+      'Architected and developed a production-ready enterprise communication platform backend from scratch, addressing the lack of secure, auditable internal messaging in corporate environments. Designed a multi-tenant REST API and WebSocket server built with Node.js, Express.js, PostgreSQL, Socket.IO, WebRTC, AWS S3/MinIO, and JWT. ',
+    ],
+  },
+  {
+    id: 2,
+    title: 'Full Stack Developer',
+    company: 'Prostrive',
+    type: 'Full-time',
+    duration: 'JUL 2026 - Present',
+    location: 'Makati City, PH',
+    points: [
+    ],
+  },
+];
+
 // Projects
 export const projects = [
   {

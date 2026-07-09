@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import TechStack from './components/sections/TechStack';
+import Experience from './components/sections/Experience';
 import Projects from './components/sections/Projects';
 import Contact from './components/sections/Contact';
 import Footer from './components/sections/Footer';
@@ -35,6 +36,8 @@ const App = () => {
             <About />
             <div className="border-t border-gray-500 dark:border-gray-500 mx-6 max-w-6xl md:mx-auto" />
             <TechStack />
+            <div className="border-t border-gray-500 dark:border-gray-500 mx-6 max-w-6xl md:mx-auto" />
+            <Experience />
             <div className="border-t border-gray-500 dark:border-gray-500 mx-6 max-w-6xl md:mx-auto" />
             <Projects />
             <div className="border-t border-gray-500 dark:border-gray-500 mx-6 max-w-6xl md:mx-auto" />

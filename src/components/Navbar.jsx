@@ -81,13 +81,17 @@ const Navbar = () => {
       >
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
 
-          {/* Left side: Name */}
+          {/* Left side: Logo */}
           <button
             key={'hero'}
             onClick={() => scrollTo('hero')}
             className={`font-bold text-lg indent-1.5 tracking-[0.2em] hover:scale-110 transition-opacity duration-200 cursor-pointer ${isHero ? 'scale-110' : ''}`}
           >
-            ANSARI
+            <img
+              src={`${isDark ? 'logo-dark.png' : 'logo-light.png'}`}
+              alt="Anzel logo"
+              className="w-8 h-8 rounded-full logo-spin"
+            />
           </button>
 
           {/* Right side: Desktop view nav links */}
